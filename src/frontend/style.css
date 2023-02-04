@@ -12,6 +12,16 @@
 	position: absolute;
 
 }
+.section1 .pokemon-container .pokemons{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.section1 .pokemon-container .card{
+
+  background:linear-gradient(315deg, transparent 35px, #ffffff 0) bottom right;
+  background-repeat: no-repeat;
+}
 
 
 

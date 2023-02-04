@@ -16,28 +16,43 @@ return (
     
   </header>
   <main>
-   
-      <section className="section1">
+    
+    <section className="section1">
       <div className="container">
-      <div className="p-4 logo d-flex justify-content-center align-items-center">
-        <img src="/asset/Logo.png" className="img-fluid" alt=""/>
-      </div>
+        <div className="p-4 logo d-flex justify-content-center align-items-center">
+          <img src="/asset/Logo.png" className="img-fluid" alt=""/>
+        </div>
+        <div className="pokemon-container">
+          <div className="pokemons">
+            <div class="card border-0" style={{width: "14rem"}}>
+             <div className="card-container">
+                <img src="/asset/Image01.png" class="card-img-top p-2" alt="..."/>
+              <div class="card-body">
+                <h6 class="card-title">Bulbasaur</h6>
+                <a href="#" class="btn btn-primary btn-sm mx-1">Grass</a>
+                <a href="#" class="btn btn-primary btn-sm mx-1">Poison</a>
+              </div>
+             </div>
+            
+            </div>
+          </div>
+        </div>
         
       </div>
-        
-        
-        
-      </section>
-      <section className="section2">
-        <div className="description-container  mx-3">
-          <div className="description  position-absolute px-5 mx-5" style={{zIndex: '1'}}>
+      
+      
+      
+    </section>
+    <section className="section2">
+      <div className="description-container  mx-3">
+        <div className="description  position-absolute px-5 mx-5" style={{zIndex: '1'}}>
           <div className="description-title d-flex justify-content-center align-items-center ">
             <img src="/asset/Brush.png" className="img-fluid" alt=""/>
             <h1 className="p-4 text-center text-primary fw-bold">Ash & Pikachu Arrive in <br/> Pokemon Universe</h1>
           </div>
           <div className="description-box position-relative d-flex ustify-content-center align-items-center">
             <div className="container">
-            
+              
               <Row>
               <Col md="8" className="pe-0">
               <Row>
@@ -94,67 +109,67 @@ return (
               <Col md="4" className="ps-0 ">
               
               <Row>
-                <Col md="12" className="ps-0">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+              <Col md="12" className="ps-0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
               . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type 
-                </Col>
+              when an unknown printer took a galley of type
+              </Col>
               </Row>
               <Row>
-                <Col md="6" className="ps-0 pe-0">
-                  <img src="/asset/Image05.png" className="img-fluid" alt=""/>
-                </Col>
-                <Col md="6" className="ps-0 pe-0">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+              <Col md="6" className="ps-0 pe-0">
+              <img src="/asset/Image05.png" className="img-fluid" alt=""/>
+              </Col>
+              <Col md="6" className="ps-0 pe-0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
               . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to make a type
               
-                </Col>
+              </Col>
               </Row>
               <Row>
-                <Col md="6" className="ps-0 pe-0">
-                  <img src="/asset/Image01.png" className="img-fluid" alt=""/>
-                </Col>
-                <Col md="6" className="ps-0 pe-0">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+              <Col md="6" className="ps-0 pe-0">
+              <img src="/asset/Image01.png" className="img-fluid" alt=""/>
+              </Col>
+              <Col md="6" className="ps-0 pe-0">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
               . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to make a type
               
-                </Col>
+              </Col>
               </Row>
               <Row>
-                <Col md="12">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+              <Col md="12">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
               . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and 
-                </Col>
+              when an unknown printer took a galley of type and
+              </Col>
               </Row>
               </Col>
               </Row>
-             
+              
             </div>
           </div>
           
         </div>
-        </div>
-        <div className="d-flex justify-content-between position-relative" style={{zIndex:"-1"}}>
-          <Image
-          className="p-0 img-fluid"
-          src="/asset/Left.png"
-          alt="bg"
-          width="100"
-          height="500"
-          />
-          <Image
-          className="img-fluid"
-          src="/asset/Left.png"
-          alt="bg"
-          width="100"
-          height="500"
-          />
-        </div>
-      </section>
-      
+      </div>
+      <div className="d-flex justify-content-between position-relative" style={{zIndex:"-1"}}>
+        <Image
+        className="p-0 img-fluid"
+        src="/asset/Left.png"
+        alt="bg"
+        width="100"
+        height="500"
+        />
+        <Image
+        className="img-fluid"
+        src="/asset/Left.png"
+        alt="bg"
+        width="100"
+        height="500"
+        />
+      </div>
+    </section>
+    
     
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
